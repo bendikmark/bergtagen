@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.02b053ee.css","mappings":"AAIA,iBACE,YACF","sources":["App.css"],"sourcesContent":[".App {\n  display: flex;\n}\n\n.App-header {\n  display: flex;\n}\n"],"names":[],"sourceRoot":""}
