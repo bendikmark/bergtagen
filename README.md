@@ -1,4 +1,5 @@
-# Bergtagen - Prosjekt gjennom fagruppen "Appgarasjen" i Bekk Trondheim
+# Bergtagen 
+# Prosjekt gjennom fagruppen "Appgarasjen" i Bekk Trondheim
 
 Applikasjonen er initialisert med [Create React App](https://github.com/facebook/create-react-app).
 
