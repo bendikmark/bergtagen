@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/bergtagen/static/css/main.02b053ee.css",
-    "main.js": "/bergtagen/static/js/main.d05125ff.js",
+    "main.css": "/bergtagen/static/css/main.fb8a8bd5.css",
+    "main.js": "/bergtagen/static/js/main.a4269b1a.js",
+    "static/media/HeaderLogo.svg": "/bergtagen/static/media/HeaderLogo.99b9ae8bae89b95637e91a336b2183b2.svg",
     "index.html": "/bergtagen/index.html",
-    "main.02b053ee.css.map": "/bergtagen/static/css/main.02b053ee.css.map",
-    "main.d05125ff.js.map": "/bergtagen/static/js/main.d05125ff.js.map"
+    "main.fb8a8bd5.css.map": "/bergtagen/static/css/main.fb8a8bd5.css.map",
+    "main.a4269b1a.js.map": "/bergtagen/static/js/main.a4269b1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.02b053ee.css",
-    "static/js/main.d05125ff.js"
+    "static/css/main.fb8a8bd5.css",
+    "static/js/main.a4269b1a.js"
   ]
 }
