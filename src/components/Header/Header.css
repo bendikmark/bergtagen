@@ -1,0 +1,28 @@
+.header-container {
+  background-color: whitesmoke;
+  min-height: 12vh;
+  max-height: 12vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  border-bottom: 1px solid;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  min-height: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.header-nav > a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  transform: scale(0.5);
+}
