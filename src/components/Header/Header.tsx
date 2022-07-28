@@ -1,22 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import Logo from "../Logo";
+import StyledLink from "../StyledLink";
+import HeaderLogo from "../../logos/HeaderLogo.svg";
+
 import "./Header.css";
-import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header-container">
-      <Logo className="header-logo" />
+      <Link to="/bergtagen">
+        <img src={HeaderLogo} alt="Logo" className="header-img" />
+      </Link>
       <nav className="header-nav">
-        <Link to={"/bergtagen"} about="Hjem">
-          Hjem
-        </Link>
-        <Link to={"/bergtagen/omOss"} about="Om oss">
-          Om oss
-        </Link>
-        <Link to={"/bergtagen/vilkar"} about="Vilkår">
-          Vilkår
-        </Link>
+        <StyledLink href="/bergtagen" content="Hjem" />
+        <StyledLink href="/bergtagen/om" content="Om oss" />
+        <StyledLink href="/bergtagen/vilkaar" content="Vilkår" />
       </nav>
     </header>
   );

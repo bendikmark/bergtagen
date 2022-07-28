@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 body {
-  background-color: aquamarine;
+  background-color: whitesmoke;
   margin: 0;
+  font-family: "Source Sans Pro";
+  color: #555559;
 }
 
 #root {
@@ -11,4 +15,5 @@ body {
 
 main {
   flex-grow: 1;
+  background-color: aquamarine;
 }

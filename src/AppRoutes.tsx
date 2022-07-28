@@ -6,8 +6,8 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/bergtagen" element={<Hjem />} />
-      <Route path="/bergtagen/omOss" element={<OmOss />} />
-      <Route path="/bergtagen/vilkar" element={<Vilkår />} />
+      <Route path="/bergtagen/om" element={<OmOss />} />
+      <Route path="/bergtagen/vilkaar" element={<Vilkår />} />
     </Routes>
   );
 };
