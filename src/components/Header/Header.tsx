@@ -16,6 +16,7 @@ const Header = () => {
         <StyledLink href="/bergtagen" content="Hjem" />
         <StyledLink href="/bergtagen/om" content="Om oss" />
         <StyledLink href="/bergtagen/vilkaar" content="Vilkår" />
+        <StyledLink href="/bergtagen/galleri" content="Galleri" />
       </nav>
     </header>
   );
