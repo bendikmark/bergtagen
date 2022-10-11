@@ -20,10 +20,15 @@ const Footer = () => {
         <SocialIcon url="mailto:info@bergtagen.no" className="social-icon" />
       </div>
       <div className="info-container">
-        <div>Org.nr: 928 697 436</div>
-        <div>Åsen 1</div>
-        <div>8519 Narvik</div>
-        <div>+47 48051147</div>
+        <div>
+          <i className="fa-solid fa-industry"></i> Org.nr: 928 697 436
+        </div>
+        <div>
+          <i className="fa-solid fa-house"></i> Åsen 1, 8519 Narvik
+        </div>
+        <div>
+          <i className="fa-solid fa-phone"></i> +47 48051147
+        </div>
       </div>
       <div className="footer-logo-container">
         <Link to="/test">
