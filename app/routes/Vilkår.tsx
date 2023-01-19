@@ -4,4 +4,4 @@ const Vilkår = () => {
   return <div>Vilkår!</div>;
 };
 
-export { Vilkår };
+export default Vilkår;

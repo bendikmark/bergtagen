@@ -4,4 +4,4 @@ const Hjem = () => {
   return <div>Hjem!</div>;
 };
 
-export { Hjem };
+export default Hjem;

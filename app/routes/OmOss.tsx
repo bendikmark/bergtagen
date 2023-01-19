@@ -4,4 +4,4 @@ const OmOss = () => {
   return <div>Om oss!</div>;
 };
 
-export { OmOss };
+export default OmOss;

@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "../../components/Image";
-import bilde1 from "../../images/bilde1.jpg";
-import bilde2 from "../../images/bilde2.jpg";
-import bilde3 from "../../images/bilde3.jpg";
-import "./Galleri.css";
+import Image from "../components/Image";
+import bilde1 from "../images/bilde1.jpg";
+import bilde2 from "../images/bilde2.jpg";
+import bilde3 from "../images/bilde3.jpg";
+import "../styles/Galleri.css";
 
 const Galleri = () => {
   const bilder: { src: string; alt: string }[] = [
