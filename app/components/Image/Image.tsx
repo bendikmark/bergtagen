@@ -1,6 +1,10 @@
-import React from "react";
-import { Fade } from "react-awesome-reveal";
-import "./Image.css";
+import { LinksFunction } from "@remix-run/node";
+import imageStyles from "./Image.css";
+import { animated, useSpring, useInView } from "@react-spring/web";
+
+export const imageLinks: LinksFunction = () => {
+  return [{ rel: "stylesheet", href: imageStyles }];
+};
 
 type ImageProps = {
   src: string;
@@ -8,10 +12,20 @@ type ImageProps = {
 };
 
 const Image = ({ src, alt }: ImageProps) => {
+  const [ref, inView] = useInView();
+
+  const [styles] = useSpring(
+    () => ({
+      config: { duration: 500 },
+      opacity: inView ? 1 : 0,
+    }),
+    [inView]
+  );
+
   return (
-    <Fade duration={500} delay={100} className="card">
+    <animated.div ref={ref} style={styles} className="card">
       <img src={src} alt={alt} />
-    </Fade>
+    </animated.div>
   );
 };
 

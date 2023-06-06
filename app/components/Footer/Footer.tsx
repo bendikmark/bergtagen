@@ -1,9 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { LinksFunction } from "@remix-run/node";
+import { Link } from "@remix-run/react";
 import { SocialIcon } from "react-social-icons";
-import IfmgaLogo from "../../logos/IfmgaLogo.svg";
-import NortindLogo from "../../logos/NortindLogo.svg";
-import "./Footer.css";
+import IfmgaLogo from "../../logos/IfmgaLogo";
+import NortindLogo from "../../logos/NortindLogo";
+import footerStyles from "./Footer.css";
+
+export const footerLinks: LinksFunction = () => {
+  return [{ rel: "stylesheet", href: footerStyles }];
+};
 
 const Footer = () => {
   return (
@@ -32,10 +36,10 @@ const Footer = () => {
       </div>
       <div className="footer-logo-container">
         <Link to="/test">
-          <img src={NortindLogo} alt="Logo" className="footer-img" />
+          <NortindLogo className="footer-img" />
         </Link>
         <Link to="/bergtagen">
-          <img src={IfmgaLogo} alt="Logo" className="footer-img" />
+          <IfmgaLogo className="footer-img" />
         </Link>
       </div>
     </footer>

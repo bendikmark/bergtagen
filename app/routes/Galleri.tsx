@@ -1,10 +1,20 @@
+import { LinksFunction } from "@remix-run/node";
 import Image from "../components/Image";
 import bilde1 from "../images/bilde1.jpg";
 import bilde2 from "../images/bilde2.jpg";
 import bilde3 from "../images/bilde3.jpg";
-import "../styles/Galleri.css";
+
+import galleriStyles from "../styles/Galleri.css";
+import { imageLinks } from "../components/Image";
+import { useInView } from "@react-spring/web";
+
+export const links: LinksFunction = () => {
+  return [{ rel: "stylesheet", href: galleriStyles }, ...imageLinks()];
+};
 
 const Galleri = () => {
+  const [ref, inView] = useInView();
+
   const bilder: { src: string; alt: string }[] = [
     { src: bilde1, alt: "bilde1" },
     { src: bilde1, alt: "bilde1" },

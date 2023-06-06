@@ -1,10 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./StyledLink.css";
+import { LinksFunction } from "@remix-run/node";
+import { Link } from "@remix-run/react";
+import styledLinkStyles from "./StyledLink.css";
 
 type StyledLinkProps = {
   href: string;
   content: string;
+};
+
+export const styledLinkLinks: LinksFunction = () => {
+  return [{ rel: "stylesheet", href: styledLinkStyles }];
 };
 
 const StyledLink = ({ href, content }: StyledLinkProps) => {
