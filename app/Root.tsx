@@ -29,7 +29,7 @@ export const links: LinksFunction = () => {
   ];
 };
 
-export default function Root() {
+export default function root() {
   return (
     <html lang="no">
       <head>
