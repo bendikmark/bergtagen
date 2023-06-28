@@ -4,10 +4,9 @@ type HeaderLogoProps = {
 
 const HeaderLogoComponent = ({ className }: HeaderLogoProps) => (
   <svg
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     className={className}
-    scale={0.5}
+    viewBox="0 0 300 200"
   >
     <path
       d="M93.041 0 167 127.721h-32L93.041 55.5 15.5 190.221l-15.5-27L93.041 0ZM179.541.72 253.5 128.442h-32l-41.959-72.22-23.041 38-15.5-27.5 38.541-66Z"

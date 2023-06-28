@@ -5,18 +5,12 @@ type NortindLogoProps = {
 const NortindLogo = ({ className }: NortindLogoProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    scale={1}
-    style={{
-      shapeRendering: "geometricPrecision",
-      textRendering: "geometricPrecision",
-      fillRule: "evenodd",
-      clipRule: "evenodd",
-    }}
     className={className}
+    viewBox="0 0 400 400"
   >
     <path
       style={{
-        opacity: 0.891,
+        opacity: 1,
       }}
       fill="#070a53"
       d="M179.5-.5h30c75.559 9.026 130.059 47.693 163.5 116 9.145 21.577 14.645 43.91 16.5 67v24c-7.234 72.988-42.901 127.154-107 162.5-22.929 11.037-46.929 17.871-72 20.5h-32c-75.051-8.933-129.218-47.266-162.5-115-8.653-19.953-14.153-40.62-16.5-62v-36C9.453 100.075 49.453 45.908 119.5 14c19.447-7.696 39.447-12.53 60-14.5Z"
