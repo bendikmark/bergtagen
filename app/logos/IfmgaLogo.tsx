@@ -5,13 +5,8 @@ type IfmgaLogoProps = {
 const IfmgaLogo = ({ className }: IfmgaLogoProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    style={{
-      shapeRendering: "geometricPrecision",
-      textRendering: "geometricPrecision",
-      fillRule: "evenodd",
-      clipRule: "evenodd",
-    }}
     className={className}
+    viewBox="0 0 500 500"
   >
     <path
       style={{

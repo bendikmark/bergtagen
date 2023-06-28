@@ -34,7 +34,7 @@ const Footer = () => {
           <i className="fa-solid fa-phone"></i> +47 48051147
         </div>
       </div>
-      <div className="footer-logo-container">
+      <div className="footer-img-container">
         <Link to="/test">
           <NortindLogo className="footer-img" />
         </Link>
