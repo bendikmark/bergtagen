@@ -13,10 +13,9 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  V2_MetaFunction,
 } from "@remix-run/react";
 
-export const meta: V2_MetaFunction = () => {
+export const meta: MetaFunction = () => {
   return [
     { charset: "utf-8" },
     { viewport: "width=device-width,initial-scale=1" },
