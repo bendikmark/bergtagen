@@ -13,13 +13,16 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  V2_MetaFunction,
 } from "@remix-run/react";
 
-export const meta: MetaFunction = () => ({
-  charset: "utf-8",
-  title: "Bergtagen",
-  viewport: "width=device-width,initial-scale=1",
-});
+export const meta: V2_MetaFunction = () => {
+  return [
+    { charset: "utf-8" },
+    { viewport: "width=device-width,initial-scale=1" },
+    { title: "Bertagen Mountain Guides" },
+  ];
+};
 
 export const links: LinksFunction = () => {
   return [
